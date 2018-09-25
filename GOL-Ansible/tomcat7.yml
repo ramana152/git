@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: NODE
   become: yes
   tasks:
   - name: Install Tomcat7
